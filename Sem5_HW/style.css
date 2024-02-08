@@ -155,11 +155,24 @@ a {
 .features {
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.features__big_item {
+.features__item {
+    width: 310px;
+    padding-bottom: 25px;
     padding-top: 40px;
+}
+
+.big {
     padding-left: 30px;
+    margin-left: 61px;
+    margin-right: 59px;
+    width: 370px;
     background: #FFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }

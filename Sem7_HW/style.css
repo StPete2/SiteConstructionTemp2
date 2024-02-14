@@ -134,6 +134,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 360px);
     gap: 30px;
+    justify-content: center;
 }
 
 .offer__item_div {
